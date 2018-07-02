@@ -28,38 +28,38 @@
 [Enoch Bootloader](http://forge.voodooprojects.org/p/chameleon/source/tree/HEAD/branches/ErmaC/Enoch)
 
 
-##To Do
+## To Do
 
-Finish out Family Driver Support(USB/SATA/NVME/AHCI/PD-APCIPlatform)
-Finish out System Commands(Reboot/Shutdown)
-Finish out the Networking
-Finish out the Multi-User
+* Finish out Family Driver Support(USB/SATA/NVME/AHCI/PD-APCIPlatform)
+* Finish out System Commands(Reboot/Shutdown)
+* Finish out the Networking
+* Finish out the Multi-User
 
 
 
 ## Credits
-We would like to thank
+* We would like to thank
 
-Apple, Inc. for releasing Darwin as Open Source 
-David Elliott for his work on boot-132
-The Chameleon team for their work on boot-132
-The xnu-dev team for their work on the XNU kernel
-Stuart Crook for his work on PureFoundation, ddisnoted and libxpc/launchd work
-Ethan Sheriff for his work on the libsystem-plaform and libxpc/launchd work
-William Kent for his work on the Darwinbuild upgrade 
-Rafirafi for his work on Generic Platform and PDCrypto kexts
-Mac OS Forge for The DarwinBuild project 
+* Apple, Inc. for releasing Darwin as Open Source 
+* David Elliott for his work on boot-132
+* The Chameleon team for their work on boot-132
+* The xnu-dev team for their work on the XNU kernel
+* Stuart Crook for his work on PureFoundation, ddisnoted and libxpc/launchd work
+* Ethan Sheriff for his work on the libsystem-plaform and libxpc/launchd work
+* William Kent for his work on the Darwinbuild upgrade 
+* Rafirafi for his work on Generic Platform and PDCrypto kexts
+* Mac OS Forge for The DarwinBuild project 
 
 ## Contact Us!
 
 ### Admins
 
-Ferdinand Klinzer - bart@pd-devs.org
-Clifford Sekel - insanedarwin@pd-devs.org
+* Ferdinand Klinzer - bart@pd-devs.org
+* Clifford Sekel - insanedarwin@pd-devs.org
 
 ### Core Dev’s
 
-Avi Saven - avisaven@pd-devs.org
-Ethan Sherriff - libsystem_ethan@pd-devs.org
-Stuart Cook - sjc@pd-devs.org
-William Kent - wjk@pd-devs.org
+* Avi Saven - avisaven@pd-devs.org
+* Ethan Sherriff - libsystem_ethan@pd-devs.org
+* Stuart Cook - sjc@pd-devs.org
+* William Kent - wjk@pd-devs.org
