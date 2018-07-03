@@ -15,7 +15,7 @@
 
 ## Projects 
 
-[Libxpc/Luanchd](https://github.com/PureDarwin/launchd-and-libxpc)
+[Libxpc/Launchd](https://github.com/PureDarwin/launchd-and-libxpc)
 
 [PureFoundation](https://github.com/PureDarwin/PureFoundation)
 
