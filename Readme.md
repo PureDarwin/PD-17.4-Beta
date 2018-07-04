@@ -1,18 +1,16 @@
 ## Welcome to PureDarwin 17.4 Beta OS
 
-* To run this, you'll need Qemu running the command below and extract it using xz 
+* To run this, first extract the image with `xz` (`xz -d pd_17_4.vmdk.xz`).
 
-* qemu-system-x86_64 -m 4096 -cpu Penryn -smp 2  -net nic,model=e1000,name=network0,macaddr="FE:DC:BA:98:76:54" -net user,name=network0 -serial stdio -drive format=vmdk,file=pd_17_4.vmdk
+* Then, start the VM with QEMU: `qemu-system-x86_64 -m 4096 -cpu Penryn -smp 2 -net nic,model=e1000,name=network0,macaddr="FE:DC:BA:98:76:54" -net user,name=network0 -serial stdio -drive format=vmdk,file=pd_17_4.vmdk`
 
+* This is not a full OS like PureDarwin Xmas was, as Apple have closed down a lot of core components, we the community have to pick up the slack. 
 
-* This is not full os like Xmas was, As Apple Inc, has closed down a lot of their opensource coreOS releases we the community have to pick up the slack. 
-* There is still a lot of work to be done but it can be completed if we band together. If you would like to view what's on this vm please use Paragon VMDK mounter for macOS users, all other please see what you need to do to mount and read an hfs filesystem on your os.
+* There is still a lot of work to be done but it can be completed if we band together. If you would like to view what's on this VM please use Paragon VMDK mounter for macOS users, all other please see what you need to do to mount and read an hfs filesystem on your OS.
 
+* Please do not ask us questions on how to run macOS applications and non-open source software on PureDarwin. If you want something to hack on, then this is it.
 
-* Please do not ask us questions on how to run macOS applications and none open source work on PureDarwin. If you want something to hack on, then this is it.
-
-* We have not finished all the system/network cmds. We built as much as we could without pulling headers from Apple's Xcode SDK's.
-
+* We have not finished all the system/network_cmds. We built as much as we could without pulling headers from Apple's Xcode SDK's.
 
 ## Projects 
 
@@ -28,15 +26,12 @@
 
 [Enoch Bootloader](http://forge.voodooprojects.org/p/chameleon/source/tree/HEAD/branches/ErmaC/Enoch)
 
-
 ## To Do
 
 * Finish out Family Driver Support(USB/SATA/NVME/AHCI/PD-APCIPlatform)
 * Finish out System Commands(Reboot/Shutdown)
 * Finish out the Networking
 * Finish out the Multi-User
-
-
 
 ## Credits
 * We would like to thank:
@@ -47,7 +42,7 @@
 * The xnu-dev team for their work on the XNU kernel
 * Stuart Crook for his work on PureFoundation, ddisnoted and libxpc/launchd work
 * Ethan Sheriff for his work on the libsystem-plaform and libxpc/launchd work
-* William Kent for his work on the Darwinbuild upgrade 
+* William Kent for his work on the DarwinBuild upgrade 
 * Rafirafi for his work on Generic Platform and PDCrypto kexts
 * Mac OS Forge for The DarwinBuild project 
 
