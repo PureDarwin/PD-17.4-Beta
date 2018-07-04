@@ -8,7 +8,7 @@
 * There is still a lot of work to be done but it can be completed if we ban together. If you would like to view what's on this vm, macOS users should use Paragon VMDK mounter and all others should see what you need to do to mount and read an hfs filesystem on your os.
 
 
-* Please do not ask us questions on how to run macOS applications. None work on PureDarwin. If you want something to hack on, then this is it.
+* Please do not ask us questions on how to run macOS applications and none open source work on PureDarwin. If you want something to hack on, then this is it.
 
 * We have not finished all the system/network cmds. We built as much as we could without pulling headers from Apple's Xcode SDK's.
 
