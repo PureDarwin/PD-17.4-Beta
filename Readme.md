@@ -1,16 +1,17 @@
 ## Welcome to PureDarwin 17.4 Beta OS
 
-* To run this you'll need Qemu running the command below and extract it using xz 
+* To run this, you'll need Qemu running the command below and extract it using xz 
 
 * qemu-system-x86_64 -m 4096 -cpu Penryn -smp 2  -net nic,model=e1000,name=network0,macaddr="FE:DC:BA:98:76:54" -net user,name=network0 -serial stdio -drive format=vmdk,file=pd_17_4.vmdk
+
 
 * This is not full os like Xmas was, As Apple Inc, has closed down a lot of their opensource coreOS releases we the community have to pick up the slack. 
 * There is still a lot of work to be done but it can be completed if we band together. If you would like to view what's on this vm please use Paragon VMDK mounter for macOS users, all other please see what you need to do to mount and read an hfs filesystem on your os.
 
 
-* Please do not ask us a bunch of question on how run macOS app and none open work on PureDarwin, if you want something to hack on than this is it.
+* Please do not ask us questions on how to run macOS applications and none open source work on PureDarwin. If you want something to hack on, then this is it.
 
-* We have not finished all the system/network cmds we built as much as we could without pulling headers from Apple's Xcode SDK's.
+* We have not finished all the system/network cmds. We built as much as we could without pulling headers from Apple's Xcode SDK's.
 
 
 ## Projects 
@@ -38,7 +39,7 @@
 
 
 ## Credits
-* We would like to thank
+* We would like to thank:
 
 * Apple, Inc. for releasing Darwin as Open Source 
 * David Elliott for his work on boot-132
