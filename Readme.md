@@ -1,8 +1,10 @@
 ## Welcome to PureDarwin 17.4 Beta OS
 
+* Beta OS can be downloaded from here [PD-Devs](https://www.pd-devs.org/Beta/)
+
 * To run this, first extract the image with `xz` (`xz -d pd_17_4.vmdk.xz`).
 
-* Then, start the VM with QEMU: `qemu-system-x86_64 -m 4096 -cpu Penryn -smp 2 -net nic,model=e1000,name=network0,macaddr="FE:DC:BA:98:76:54" -net user,name=network0 -serial stdio -drive format=vmdk,file=pd_17_4.vmdk`
+* Then, start the VM with QEMU: `qemu-system-x86_64 -m 8192 -cpu Penryn -smp 2  -netdev user,id=mynet0 -device rtl8139,netdev=mynet0 -serial stdio -drive format=vmdk,file=pd_17_4.vmdk`
 
 * This is not a full OS like PureDarwin Xmas was, as Apple have closed down a lot of core components, we the community have to pick up the slack. 
 
