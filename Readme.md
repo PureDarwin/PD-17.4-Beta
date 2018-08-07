@@ -2,9 +2,19 @@
 
 * Beta OS can be downloaded from here [PD-Devs](https://www.pd-devs.org/Beta/)
 
+### VMDK
+
 * To run this, first extract the image with `xz` (`xz -d pd_17_4.vmdk.xz`).
 
-* Then, start the VM with QEMU: `qemu-system-x86_64 -m 8192 -cpu Penryn -smp 2  -netdev user,id=network0 -device rtl8139,netdev=network0 -serial stdio -drive format=vmdk,file=pd_17_4.vmdk`
+* Then, start the VMDK with QEMU: `qemu-system-x86_64 -m 8192 -cpu Penryn -smp 2  -netdev user,id=network0 -device rtl8139,netdev=network0 -serial stdio -drive format=vmdk,file=pd_17_4.vmdk`
+
+### ISO 
+
+* To run this, first extract the image with `xz` (`xz -d pd_17_4.iso.xz`).
+
+* Then, start the ISO with QEMU: `qemu-system-x86_64 -m 8192 -cpu Penryn -smp 2  -netdev user,id=network0 -device rtl8139,netdev=network0 -serial stdio -drive format=raw,file=pd_17_4.iso`
+
+## Notes
 
 * This is not a full OS like PureDarwin Xmas was, as Apple have closed down a lot of core components, we the community have to pick up the slack. 
 
