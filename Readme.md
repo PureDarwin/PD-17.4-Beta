@@ -46,7 +46,7 @@
 * Finish out the Multi-User
 
 ## Credits
-* We would like to thank:
+We would like to thank:
 
 * Apple, Inc. for releasing Darwin as Open Source 
 * David Elliott for his work on boot-132
