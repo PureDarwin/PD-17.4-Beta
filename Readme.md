@@ -1,6 +1,6 @@
 ## Welcome to PureDarwin 17.4 Beta OS
 
-* Beta OS can be downloaded from here [PD-Devs](https://www.pd-devs.org/Beta/)
+* Beta OS can be downloaded from here [PD-Devs](https://pd-devs.org/Beta/)
 
 ### VMDK
 
