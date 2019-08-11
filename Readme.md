@@ -10,7 +10,9 @@
 
 ### ISO 
 
-* To run this, first extract the image with `xz` (`xz -d pd_17_4.iso.xz`).
+* To run this, first extract the image with `xz` (`xz -d pd_17_4.vmdk.xz`).
+
+* Then convert to VDMK to ISO 'qemu-img convert -f vmdk pd_17_4.vmdk -O raw pd_17_4.raw' then 'dd if=pd_17_4.raw of=pd_17_4.iso'.
 
 * Then, start the ISO with QEMU: `qemu-system-x86_64 -m 8192 -cpu Penryn -smp 2  -netdev user,id=network0 -device rtl8139,netdev=network0 -serial stdio -drive format=raw,file=pd_17_4.iso`
 
