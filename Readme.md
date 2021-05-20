@@ -12,7 +12,7 @@
 
 * To run this, first extract the image with `xz` (`xz -d pd_17_4.vmdk.xz`).
 
-* Then convert to VDMK to ISO `qemu-img convert -f vmdk pd_17_4.vmdk -O raw pd_17_4.raw` then `dd if=pd_17_4.raw of=pd_17_4.iso`.
+* Then convert to VDMK to ISO `qemu-img convert -f vmdk pd_17_4.vmdk -O raw pd_17_4.iso`.
 
 * Then, start the ISO with QEMU: `qemu-system-x86_64 -m 8192 -cpu Penryn -smp 2  -netdev user,id=network0 -device rtl8139,netdev=network0 -serial stdio -drive format=raw,file=pd_17_4.iso`
 
@@ -20,7 +20,7 @@
 
 * This is not a full OS like PureDarwin Xmas was, as Apple have closed down a lot of core components, we the community have to pick up the slack. 
 
-* There is still a lot of work to be done but it can be completed if we band together. If you would like to view what's on this VM please use Paragon VMDK mounter for macOS users, all other please see what you need to do to mount and read an hfs filesystem on your OS. You may also use this `qemu-img convert -f vmdk pd_17_4.vmdk -O raw pd_17_4.raw`  then `dd if=pd_17_4.raw of=pd_17_4.iso`
+* There is still a lot of work to be done but it can be completed if we band together. If you would like to view what's on this VM please use Paragon VMDK mounter for macOS users, all other please see what you need to do to mount and read an hfs filesystem on your OS. You may also use this `qemu-img convert -f vmdk pd_17_4.vmdk -O raw pd_17_4.iso`
 
 * Please do not ask us questions on how to run macOS applications and non-open source software on PureDarwin. If you want something to hack on, then this is it.
 
